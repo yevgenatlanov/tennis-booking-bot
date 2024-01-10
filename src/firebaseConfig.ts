@@ -1,6 +1,7 @@
 import * as admin from 'firebase-admin';
+require('dotenv').config();
 
-const serviceAccount = require('../kas-tenniscourt-booking-firebase-adminsdk-nesoo-e565613f3c.json');
+const serviceAccount = JSON.parse(process.env.SA);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
