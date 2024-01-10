@@ -1,0 +1,12 @@
+/dist
+/node_modules
+logs
+*.log
+.DS_Store
+*.zip
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+kas-tenniscourt-booking-firebase-adminsdk-nesoo-e565613f3c.json

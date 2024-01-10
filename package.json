@@ -1,0 +1,25 @@
+{
+  "name": "court-booking",
+  "version": "1.0.0",
+  "description": "bot for tennis court booking in kas",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/bot.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yevhenii Atlanov",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "node-telegram-bot-api": "^0.64.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "@types/node-telegram-bot-api": "^0.64.2",
+    "typescript": "^5.3.3"
+  }
+}
